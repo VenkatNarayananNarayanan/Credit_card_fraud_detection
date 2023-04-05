@@ -19,8 +19,11 @@ KNN, and Logistic regression) Random Forest obtained more accuracy where accurac
 99.49.
 
 About the Dataset : Dataset name : creditcard.csv
+
 • Dataset from : Kaggle 
+
 • Kaggle link : https://www.kaggle.com/mlg-ulb/creditcardfraud
+
 • It contains only numerical input variables which are the result of a PCA transformation. 
 Unfortunately, due to confidentiality issues, we cannot provide the original features and 
 more background information about the data. Features V1, V2, … V28 are the principal 
@@ -37,12 +40,17 @@ transaction data from the database will be passed to a predictive model that
 raises alerts (transaction labeled as fraud or genuine). If the predictive 
 model alerts as fraud then the company administrator will block the credit 
 card and send the alert message to the user.
+
 ● There are four modules in the predictive model which is mentioned below.
+
 ● Data collections : collecting data or using the data set from kaggle. 
+
 ● Data pre-processing : cleaning of data , instance selection and feature 
 extraction.
+
 ● Evaluating the data : will evaluate the data by splitting the data into 80/20 
 ratio. 
+
 ● Calculating the accuracy : By using the Random Forest classifier model will 
 calculate the accuracy of the model for the dataset.
 
